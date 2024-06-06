@@ -1,0 +1,62 @@
+﻿@import "prism";
+@import "bootstrap-notify";
+
+@import "fontawesome/fontawesome-all";
+@import "flag-icons/flag-icons.scss";
+
+// --Forum imports
+@import "forum/attachments-upload.scss";
+@import "forum/dropdowns.scss";
+@import "forum/cookie-alert.scss";
+@import "forum/button-scroll.scss";
+
+// Main
+#YafBody {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.list-inline {
+    margin: 0;
+}
+
+// Pager
+.gotoPageForm {
+    z-index: 99999;
+}
+
+// Spinner Input
+.bootstrap-touchspin {
+    width: 250px;
+}
+
+// Event log
+.pre-scrollable {
+    overflow: auto;
+    white-space: pre-line;
+}
+
+.img-navbar-avatar {
+    position: relative;
+    margin-bottom: 0;
+    display: inline-block;
+    min-width: 0.9rem;
+    max-width: 1.2rem;
+    max-height: 1.2rem;
+    font-size: 2rem;
+    vertical-align: middle;
+}
+
+// Unread Icon
+.unread {
+    position: absolute;
+    top: 8px;
+    left: 16px;
+}
+
+// Tabs
+.tab-content {
+    padding-top: 10px;
+}

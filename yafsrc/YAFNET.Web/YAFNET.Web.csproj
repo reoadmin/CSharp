@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <LangVersion>latest</LangVersion>
+	<NuspecFile>YAFNET.Web.nuspec</NuspecFile>
+	  <RootNamespace>YAF.Web</RootNamespace>
+	  <AssemblyName>YAF.Web</AssemblyName>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="OEmbed.Core" Version="2.0.2" />
+    <PackageReference Include="SonarAnalyzer.CSharp" Version="9.26.0.92422">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\YAFNET.Configuration\YAFNET.Configuration.csproj" />
+    <ProjectReference Include="..\YAFNET.Core\YAFNET.Core.csproj" />
+    <ProjectReference Include="..\YAFNET.Types\YAFNET.Types.csproj" />
+  </ItemGroup>
+</Project>
